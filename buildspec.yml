@@ -7,4 +7,6 @@ phases:
       - docker build -t my_web .
       - docker tag my_web:latest 329981824160.dkr.ecr.ap-northeast-2.amazonaws.com/my_web:latest
       - docker push 329981824160.dkr.ecr.ap-northeast-2.amazonaws.com/my_web:latest
+
+      
       
